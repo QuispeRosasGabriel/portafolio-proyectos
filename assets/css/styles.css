@@ -46,11 +46,6 @@
 }
 
 /*===== BASE =====*/
-* {
-  border: 1px solid red;
-  outline: red;
-}
-
 *,::before,::after{
   box-sizing: border-box;
 }
