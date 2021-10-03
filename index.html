@@ -2,248 +2,578 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Portfolio Gabriel Quispe</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- =====BOX ICONS===== -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
-    <title>Portafolio Gabriel Quispe</title>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">Gabriel</a>
-            </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mí</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Proyectos</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Hablemos</a></li>
-                </ul>
-            </div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
-    </header>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Hola,<br>soy <span class="home__title-color">Gabriel</span><br> Desarrollador
-                    Web</h1>
-
-                <a href="#" class="button">Hablemos</a>
-            </div>
-
-            <div class="home__social">
-                <a href="https://www.linkedin.com/in/gabriel-omar-quispe-rosas/" target="_blank"
-                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://dev.to/gabrielomarq" target="_blank" class="home__social-icon"><i
-                        class='bx bxl-dev-to'></i></a>
-                <a href="https://github.com/QuispeRosasGabriel" target="_blank" class="home__social-icon"><i
-                        class='bx bxl-github'></i></a>
-            </div>
-
-            <div class="home__img">
-                <img src="assets/img/perfil2.png" class="main__img" alt="">
-            </div>
-        </section>
-
-        <!--===== ABOUT =====-->
-        <section class="about section " id="about">
-            <h2 class="section-title">Sobre mí</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/about3.png" style="max-height: 400px; max-width: 250px;" alt="">
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle">Me llamo Gabriel Quispe</h2>
-                    <p class="about__text">Soy desarrollador web con experiencia en múltiples proyectos para distintos
-                        rubros. He trabajado en diferentes equipos de desarrollo, bajo Scrum y logré destacar en cada
-                        uno de ellos. Mi
-                        lenguaje favorito es Javascript y con este logré dominar gran cantidad de frameworks y
-                        librerías relacionadas al tema, como Angular, React, Node. Además soy mentor de Javascript, doy
-                        charlas a distintas comunidades
-                        de tecnología y publico artículos relacionados al tema.</p>
-                </div>
-            </div>
-        </section>
-
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Habilidades</h2>
-
-            <div class="skills__container bd-grid">
-                <div>
-                    <h2 class="skills__subtitle">Herramientas más usadas</h2>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon'></i>
-                            <span class="skills__name">JAVASCRIPT</span>
-                        </div>
-                        <div class="skills__bar skills__css">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-react skills__icon'></i>
-                            <span class="skills__name">REACT</span>
-                        </div>
-                        <div class="skills__bar skills__react">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">70%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-angular skills__icon'></i>
-                            <span class="skills__name">ANGULAR</span>
-                        </div>
-                        <div class="skills__bar skills__angular">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">80%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-nodejs skills__icon'></i>
-                            <span class="skills__name">NODE</span>
-                        </div>
-                        <div class="skills__bar skills__js">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">65%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bx-shape-polygon skills__icon'></i>
-                            <span class="skills__name">GRAPHQL</span>
-                        </div>
-                        <div class="skills__bar skills__js">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">65%</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="assets/img/work5.jpg" alt="" class="skills__presentation">
-                </div>
-            </div>
-        </section>
-
-        <!--===== WORK =====-->
-        <section class="work section" id="work">
-            <h2 class="section-title">Proyectos</h2>
-
-            <div class="work__container bd-grid">
-                <div class="work__img">
-                    <a href="https://www.claramente-eco.com/" target="_blank">
-                        <img src="https://i.ibb.co/3pmq6DM/work1.png" alt="proyecto1">
-                    </a>
-                </div>
-                <div class="work__img">
-                    <a href="https://www.roxanlo.com/" target="_blank">
-                        <img src="https://i.ibb.co/Fb7Sw2C/work2.png" alt="proyecto2">
-                    </a>
-                </div>
-                <div class="work__img">
-                    <a href="https://interbank.pe/prestamos-creditos/creditos-hipotecarios/credito-hipotecario"
-                        target="_blank">
-                        <img src="https://i.ibb.co/MBk7d0N/work3.png" alt="proyecto3">
-                    </a>
-                </div>
-                <div class="work__img">
-                    <a href="https://cardsperu.com/recargasperu/" target="_blank">
-                        <img src="https://i.ibb.co/YTf4L74/work4.png" alt="proyecto4">
-                    </a>
-                </div>
-                <div class="work__img">
-                    <a href="https://esgplay.net/" target="_blank">
-                        <img src="https://i.ibb.co/DrqjrST/work6.png" alt="proyecto6">
-                    </a>
-                </div>
-                <div class="work__img">
-                    <a href="https://www.ursulacalle.com/" target="_blank">
-                        <img src="https://i.ibb.co/WyD5tWt/work7.png" alt="proyecto7">
-                    </a>
-                </div>
-                <div class="work__img">
-                    <a href="https://www.afpintegra.pe/"  target="_blank">
-                        <img src="https://i.ibb.co/QjkR2g9/work8.png" alt="proyecto8">
-                    </a>
-                </div>
-                <div class="work__img">
-                    <a href="https://www.afpintegra.pe/"  target="_blank">
-                        <img src="https://i.ibb.co/TTPWYNB/work9.png" alt="proyecto9">
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Hablemos</h2>
-
-            <div class="contact__container bd-grid">
-                <form action="https://submit-form.com/8hRss6o0" class="contact__form">
-                    <input type="text" placeholder="Nombre" name="nombre" class="contact__input">
-                    <input type="mail" placeholder="Email" name="email" class="contact__input">
-                    <textarea name="mensaje" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <button class="contact__button button" type="submit">Enviar</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-        <p class="footer__title">Gabriel</p>
-        <div class="footer__social">
-            <a href="https://www.linkedin.com/in/gabriel-omar-quispe-rosas/" target="_blank" class="footer__icon"><i
-                    class='bx bxl-linkedin'></i></a>
-            <a href="https://dev.to/gabrielomarq" target="_blank" class="footer__icon"><i class='bx bxl-dev-to'></i></a>
-            <a href="https://twitter.com/GabrielOmarQ" target="_blank" class="footer__icon"><i
-                    class='bx bxl-twitter'></i></a>
+      <div class="profile">
+        <img src="assets/img/perfil2.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Gabriel Quispe</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/GabrielOmarQ" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a  href="https://wa.me/51978080386" target="_blank" class="facebook"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://dev.to/gabrielomarq" class="instagram"><i class="bx bxl-dev-to"></i></a>
+          <a href="https://www.linkedin.com/in/gabriel-omar-quispe-rosas/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
-        <p>&#169; 2021 Todos los derechos reservados</p>
-    </footer>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Portfolio</span></a></li>
+          <li><a href="#meetups" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Meetups</span></a>
+          </li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Gabriel Quispe</h1>
+      <p>I'm a <span class="typed" data-typed-items="Frontend Developer, Frontend Lead, Frontend Architect"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Dedicated web developer with 4 years of experience in Javascript technologies like Angular and React.
+            Strong participation in Scrum teams. Mentor and volunteer developer in different groups of tech industry.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/perfil2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Web Developer.</h3>
+            <p class="fst-italic">
+              JS Enthusiat - Web Developer - JS Speaker
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+51 978 080 386</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lima, Peru</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS. System Engineering</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>gabrielomarquisperosas@gmail.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I really like to participate in projects that use Javascript technologies. In my experience, I've improved
+              different frontend architectures, trained new members and led teams.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <!-- <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Hard Skills</h2>
+          <p>I consider hard skills very important to work in programming world, some of them that I practice are listed here 🚀.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+     -->
+    <!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>I've worked in different remote projects. Improved frontend architectures, led teams and trained new
+            members. Also, I have strong experience working with the most popular Javascript technologies like Angular
+            and React. I love to work with micro frontends and webcomponents too. If you'd like to talk about new job
+            opportunities or CFP for a meetup, I'm all ears 😎</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar html" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar css" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar js" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">TypeScript <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar ts" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">NodeJS <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar nodejs" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WebComponents <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar wc" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Angular <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar ng" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar react" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">GraphQL <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar graphql" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">AWS <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar aws" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>This is a list of some public projects that I've participated</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Intranet</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/3pmq6DM/work1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/3pmq6DM/work1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="App 1"><i class="bx bx-search"></i></a>
+                <a href="https://www.claramente-eco.com/l" target="_blank" title="Go to the page"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/Fb7Sw2C/work2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/Fb7Sw2C/work2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Web 3"><i class="bx bx-search"></i></a>
+                <a href="https://www.roxanlo.com/" target="_blank" title="Go to the page"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/MBk7d0N/work3.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/MBk7d0N/work3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="App 2"><i class="bx bx-search"></i></a>
+                <a href="https://interbank.pe/prestamos-creditos/creditos-hipotecarios/credito-hipotecario"
+                  target="_blank" title="Go to the page"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/YTf4L74/work4.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/YTf4L74/work4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Card 2"><i class="bx bx-search"></i></a>
+                <a href="https://cardsperu.com/recargasperu/" target="_blank" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/DrqjrST/work6.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/DrqjrST/work6.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Web 2"><i class="bx bx-search"></i></a>
+                <a href="https://esgplay.net/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/WyD5tWt/work7.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/WyD5tWt/work7.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="App 3"><i class="bx bx-search"></i></a>
+                <a href="https://www.ursulacalle.com/" target="_blank" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/QjkR2g9/work8.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/QjkR2g9/work8.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Card 1"><i class="bx bx-search"></i></a>
+                <a href="https://www.afpintegra.pe/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://i.ibb.co/TTPWYNB/work9.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://i.ibb.co/TTPWYNB/work9.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Card 3"><i class="bx bx-search"></i></a>
+                <a href="https://lesocialatelier.com/" target="_blank" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
 
 
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ======= Testimonials Section ======= -->
+    <section id="meetups" class="testimonials section-bg">
+      <div class="container">
 
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
+        <div class="section-title">
+          <h2>Meetups</h2>
+          <p>I usually participate in different meetups, you can see some of them here.</p>
+        </div>
 
-    <!--===== SERVICE WORKER CONFIG =====-->
-    <script src="assets/js/config.js"></script>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <div class="img-fluid">
+                  <iframe src="https://www.youtube.com/embed/IQhglWwtHkE" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="img-fluid h-100">
+                  <iframe src="https://www.youtube.com/embed/6eAaGH8-Guw" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="img-fluid">
+                  <iframe src="https://www.youtube.com/embed/W_p4-7lg6oc" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="img-fluid">
+                  <iframe src="https://www.youtube.com/embed/0i0BqiLMQic" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="img-fluid">
+                  <iframe src="https://www.youtube.com/embed/SCTqT6vI3UE" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Let's get in touch!</h2>
+          <p>Do you have any doubt? Send here.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Lima, Peru</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>gabrielomarquisperosas@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>
+                  <a href="https://wa.me/51978080386" target="_blank">
+                    +51 978 080 386
+                  </a>
+                </p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249743.7204473085!2d-77.1278664602997!3d-12.026603399311636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1sen!2spe!4v1633231800165!5m2!1sen!2spe"
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://submit-form.com/8hRss6o0" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <!-- &copy; Copyright <strong><span>iPortfolio</span></strong> -->
+      </div>
+      <div class="credits">
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
